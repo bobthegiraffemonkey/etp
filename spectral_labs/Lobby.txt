@@ -1,0 +1,117 @@
+Intro
+=====
+You find yourself in a lobby.
+- In front of you to the North there's what looks like a corridor that loops around a square block of rooms on the ground level.
+  - In front of that is an open-plan staircase that leads to a second floor, that seems to have a similar block of rooms.
+  - On the wall of the square block of rooms is a large sign next to a red light.
+- In the South-East corner, there is a reception desk.
+  - The South wall next to the desk has a large whiteboard attached to the wall.
+  - On the East wall behind the desk is a large poster.
+- In the South-West corner is a coat rack.
+
+Items
+=====
+- [] Key - desk drawers
+- [] Key - keycard for lab
+- [] Key - for lab
+- [] Code - Biscuit tin
+- [] Code - Chemistry lab
+- [] Chemicals
+- [] Narrow torch
+- [] UV torch
+- [] Blue disc
+
+Desk
+There isn't much of interest on the desk - some standard office desk stuff, some personal decorations like a cactus, a coffee mag on a blue glass coaster. There's a set of drawers built into the desk.
+
+Fake plant
+You notice that the plant isn't quite sitting level on the desk, and you find a key under it.
+Find: Key - desk drawers
+
+Desk drawers
+The drawers are locked and need a key to open.
+Open: In amongst some more boring things you find a small cylinder with a button on the side.
+Find: Narrow torch. You press the button, and realise it's a small torch. It's a bit unusual, because the beam is very narrow. Almost like a laser, but it's white light so it's not a laser.
+
+Mug
+You see some dregs of coffee in the bottom.
+
+Coaster
+It seems to be made of a kind of transparent glass-like material, it's very blue. Seems a bit thicker than you would expect for a coaster.
+Find: blue disc
+
+Biscuit tin
+It's a big biscuit tin (kind of like a cookie jar?), with a 3 digit combination lock.
+Open: You find a single biscuit, and not one you would consider worth locking up. You also find a key that someone must have left by accident when getting a biscuit.
+Find: Key - for lab
+
+Whiteboard
+You see a large whiteboard on the wall. There's some sciency-looking scribbles, some notes and announcements. And in the corner, a puzzle, titled "This week's biscuit code".
+[Image]
+Answer: TODO
+Find: Biscuit tin code.
+
+Logo
+You see a logo for Spectral Labs.
+[Image]
+Hinting for: Colour disc theme/layout
+
+Sign/light
+The sign says "Caution: Light indicates experiment in progress". The light is lit.
+
+Rooms
+Note: Players can only access W and the storage. You need to access the R, G, and B lab contents via W, so they need to exist.
+On the bottom floor there are 4 central rooms with a corridor running round them. Based on signage, you assume they're for some kind of experiments. They all seem to need a key and a keycard, whatever's inside must be important, or maybe just dangerous. At the back are some other rooms, things like other lab areas, storage, toilets, etc. The labs are each labelled. Once is "R", one is "G", one is "B", and one is "Main". They look like they need a keycard and a normal key. Dotted around the corridor are a variety of posters, mostly science themed.
+Open: You try R first, the key seems to fit but the keycard isn't accepted. Same at G, and B. But Main opens up.
+
+Coat rack
+You see a coat rack with a single coat hanging up. Looks like the sort of thing Kate would wear.
+
+Coat
+You don't find anything much of interest, but you're now convinced that this is Kate's. It has what seems to be her phone and keys in it, so you're pretty sure she's somewhere in the building.
+
+Staircase
+You see a staircase heading up to the second level. Looks like there's more labs up there.
+
+Upstairs labs
+Note: None of these doors can be opened by the player, but you will access the contents of RGB1 and RGB 2 so they need to exist. The other two are flavour/realism.
+You see four rooms in the middle again, just like on the ground floor. One is labelled "RGB1", with a note stuck to the door saying "Favourite animals! (initial size)". Another is labelled "RGB2", and has a picture stuck to the door. The other two are "RGB3" and "RGB4" and have notes attached saying "Work in progress". All are locked and would need a key card and key.
+Try open: key and keycard from downstairs don't work at all here.
+[Image]
+
+Doormat
+Note: Inside front door - because that's obviously a very sneaky and secure variation of hiding a key under an outside door mat.
+It says "Welcome", and each letter is a different colour of the rainbow.
+Look under mat: You look under the mat and find a key card.
+Find: Key - keycard for lab
+
+Chemistry lab door
+Note: Expected that players only try to open this when trying to fix the red disc
+It's locked with a numeric keypad. There's a post-it note below the keypad.
+[image - shows the word "hint" underlined, but actually just under the middle two letters]
+Hint: Look at the hint carefully.
+Answer: 914 (I=9, N=14)
+
+Chemistry lab
+Someone has left out various transparent plastic bottles full of coloured liquids, you're not sure what they are. You also find a torch (aka flashlight), and some lab safety equipment.
+Find: Chemicals, UV torch, safety equipment
+
+UV torch
+You turn it on. It emits a purple-ish light, seems to be a UV torch/flashlight.
+
+Chemicals
+Note: Not allowed to take any until you know what you want to do with them.
+Try to take early: You don't want to touch any without knowing what they are, they could be dangerous and you don't know the safety procedures.
+Look for red chemical for fixing red disk: You find some are the right colour of red. Now that you look at those more closely, you see they have safety information on the back of the label, and ... it's pretty harmless. Stick some gloves and goggles on to be properly safe just in case. You can now see the front of the label.
+[image]
+In small-ish print, it says "350nm".
+
+Main Lab door
+Open: You open the door. It's dark inside. You can see some sort of table, maybe a control panel, near the door. You don't see any obvious light switch inside the room.
+
+Lab entrance puzzle
+The room is lit only from the hallway. You can see a pedestal with 4 switches. There's a red switch, a green switch, and a blue switch, all set to on. The last switch is labelled "normal" and "magic", currently set to "magic".
+Flip to "normal": White light comes on, and you can see the room clearly. There's not much beyond the pedestal, but you're too distracted to look because there's now a loud annoying beeping sound.
+Close door: Beeping stops. There seems to be a rail against the back wall, a high shelf on the right wall, and various small recesses that look like things should attach to them.
+Flip to "magic": Stuff appears!
+

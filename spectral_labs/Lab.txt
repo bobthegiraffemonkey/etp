@@ -1,0 +1,65 @@
+Lab
+---
+
+
+disk puzzle
+Need R present at all times
+- R.. repair disk and remove it
+- RG. insert G
+- R.. G stored in correct place
+- R.B insert B
+- R.. B stored in correct place, then place R
+- RG. RG overlay
+- RGB RGB overlay, pieces all correct, then use narrow torch
+
+End-ish puzzle: One part of the hex code from each of the rgb versions of the room (pick a nice colour). Need one specific item of each colour on the control panel (probably orbs into an indent so they line up easily), overlaid in white light, to open the panel and put in the code.
+- FE (hint from an iron, there's a periodic table somewhere for reference)?
+- Animal clues, letter then number. Clue on pedestal talking about using favourite animals to remember password. Shelf with 3 hybrid-looking animals (or scatter?), each has one each rgb. Only one of each (colour/sculpture) has a name starting a-f, name must be 1-9 in length. e8b3d6 (light pink) = elephant, bat, dragon? Need to separate out animals to figure out what they are.
+  - other animals to mix in: giraffe, monkey, shark, snake, owl, octopus,
+  - locations
+    - high ledge, need to build stool. Maybe all 3 up there? Can't just stack to reach, they're oddly slippery against each other.
+    - in lobby? breaks room premise
+    - in pedestal after opening door? probably too obvious
+    -
+- Each orb is locked in a box with two locks (boxes superimposed and need separated). Each attached to the wall on a slider, can't reach shelf with them.
+
+Always check the door
+---------------------
+Contains writing in each of rgb (whiteboard). Maybe try to have 3 clues, where you need to read it for each colour pair?
+- rgb is messy and unreadable (all 3 colours all the way round, but each only form coherent words/letters for 2/3 of that)
+- r/g/b is incomplete.
+- rg is both the end of the red clue and the start of the green clue (etc.)? Two words each?
+  - no, makes more sense if g = rg + gb. 6 words total, see 2 words at a time, 4 words per clue
+- 4x4 grid, 3 tetris pieces, 3 fixed rgb pieces, 1 fixed white piece. Good luck turning this into the words that hint the solution!
+  - make all fixed pieces white, no other overlap
+  - no overlap at all
+  - no pieces in the grid (lol)
+- for each colour, follow the right clue, then count the amount of that colour in each column
+- Word on door are around a hexagon, which starts slightly misaligned as a hint that it rotates. Starts with three segments highlighting rg/gb/br. Need to realise to rotate to r/g/b to get the right two words.
+  - Right: fixed = white [R]/ grid full [G] / leaf (leave) out [B]
+  - Wrong: white grid / full leaf / out fixed
+
+pedestal has
+- laptop, battery died, hence why need manual override
+- a4 page taped
+  - In case of emergency: combo locks need the count of colours per column.
+  - In case of attempt to steal research: hope this delays you long enough for the police to arrive.
+  - If curious: you can find my favourite colours from the initial size of my animals. (put on F door instead?)
+
+- There's a white box to the side (can be used to fuse into stool), lift it to get 9 shapes, 3 each colour.
+- Make into keys for orb boxes.
+- Each looks mostly like a rectangle cut out, but other bits missing. Need outside the rectangle to match colour of the box, and inside to be full.
+- Mechanism is a white laser-like beam from a small cylindrical device, slots into boxes. Found in lobby.
+- Last box you find that the light goes wrong, realise one block chipped. Need the right colour of fluid from the lobby (plus clear base liquid? maybe better without if using light), a special light to cure it, and paper to form a makeshift mould.
+OR
+- 3 disks that arrange into the diagram on the poster
+- still one broken, but it's a fixed colour. No separate mould required, but do still need special light.
+- one in the box, one in the railing, one in a box with a jumble of shapes (need to specify what you're looking for).
+- safes are attached to the wall by a railing, and the disks + light allow them to slide so you can open the combo locks
+
+
+box of misc
+all one colour stuff in white box? otherwise difficulty with overlap
+- disc
+- screwdriver thingy
+

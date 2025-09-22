@@ -1,0 +1,75 @@
+Didn't think I'd be doing this, but had the start of an idea and my brain wouldn't let it go.
+
+Notes below are a mess, need to tidy into coherent order and formatting.
+
+
+Motivation
+==========
+Gimmick where there's several versions of the room, with multiple toggles to overlay one or more of them over the base room at once. These interact in interesting ways. Must be simple enough to reason about that a typical guest could escape!
+
+
+Narrative
+=========
+You shared a physics class with someone at uni. Bit eccentric and very clever. Likes colours, wore colourful and patterned things a lot. Used to hang out a bit.
+
+A few years after uni, her brother calls you (start room by saying 'ring ring' and having a call). Seems to be missing. Might have been just before the problem with the substation in the area. Probably they lost some work and are distracted fixing it, forgot to charge their phone or their power is still down. You live near-ish her lab, can you check in?
+
+Lab is colour based (Spectral Overlay Labs), but when you go in it's mostly plain white (more colours in the lobby?). Toggles are rgb buttons. Hidden controls to put in an a hex code at the end to complete the room - this overlays some weird experimental box (experimental safety deposit box technology) that the scientist got trapped in when the power surged and the controls got into a bad state. End room by switching to normal lights to wake her up, after removing her from the box thingy.
+
+
+Gimmick rules
+=============
+- Four toggles
+  - W: on = "magic" lights, off = normal lights.
+  - R, G, B = toggle that colour on/off when magic lights are on.
+- Objects (including ink) have colours or R, G, or B (no mixtures).
+- When the magic lights include the colour of an object, it is included (overlaid) in the W room.
+- If object A exists in a position that would overlap with object B, and object A is included but B is not, then turning on the appropriate light to make B appear will superimpose A and B into one solid object. The colour of the overlap is the result of adding the colours (like how RGB works on screens).
+  - E.g. red light on, green object would overlap with a red object, then turning on the green light will merge those two objects. The overlap would be yellow.
+- Hex control will only load in other room if the colour is an exact match, so with the solution colour in place you only see the box and none of the other items.
+
+
+Characters
+==========
+You (2 players, 1 or 2 characters at player discretion) - Did physics at uni, but now work in a bank. Mostly fine, but you do miss the subject sometimes.
+
+Dr Kate White
+Scientist, loves colours, you need to help her out. You were friends at uni and shared physics classes. Known for wearing bright colours and generally loves colours, and incredibly smart. People used to joke she would end up inventing a new colour.
+
+Timothy Beige
+Kate's brother. Also went to the same uni, but younger and didn't do physics. You met him a few times in the student's union.
+
+
+Introduction
+============
+"Ring ring!" (Have a phone call, here's a rough idea how that might go).
+
+Hi, it's Tim. You know, from uni? We met a few times, you were friends with my sister, Kate, because you studied physics together. Actually, that's why I'm phoning.
+
+She was supposed to stop by last night, but I've not heard from her since yesterday morning. I know she can get a bit distracted by her work, but I'm getting a little worried. It's probably nothing, I know there was a problem with the electrical substation in the area yesterday afternoon, probably she lost some work and got distracted fixing it. Her phone seems to be off, but probably just out of battery or the charger got fried, or something.
+
+Anyway, her lab isn't far from your house, if you're there now? I can send you the address, would really appreciate if you just dropped by to check she's ok. She's been doing some really cool stuff recently she said. I mean, I don't understand it, but you would probably enjoy hearing about it all. What do you say?"
+
+You remember Kate. She always stood out in the room because she wore all sorts of bright colours. She loved colours. Combined with being incredibly smart, people joked that she would invent a new colour one day. You decide that Tim's right and that it would be nice to catch up, and it seems like nice sunny weather for a short walk. You head out, and soon regret not bringing a jacket as you get caught in a rain shower. Still, it makes a pretty cool rainbow. I wonder if Kate was working on making rainbows at will? That *would* be cool. Nah, can't be hers, they would have an extra new colour in them!
+
+You arrive at the lab, thankfully the rain has now stopped. You see a building, looking like a modern and shiny science lab you suppose.
+
+
+Building entrance
+=================
+
+Door
+  You walk up to the door. It has glass panels so you can see some of the lobby inside, and the welcome mat just inside the door - the word "Welcome" with each letter a different colour of the rainbow. Next to the door is the keypad that Tim warned you about. His message said that Kate wasn't the best at security, so it would probably be a number she liked or something like that. He couldn't quite remember the code, but seemed to think it was 4 digits and definitely easy to remember.
+    Signpost: The rainbow, door mat, and talk of colours.
+    Hint: The number 7 key seems a little more worn than the rest.
+    Hint: Welcome mat inside the door has 7 colours of the rainbow (see lobby).
+    Answer: 7777
+
+
+Finale
+Once pink blob appears, need to drag person out. They're unconscious, need to switch to normal light to wake them up. Go get pizza!
+
+
+Ideas
+- Biscuit tin in lobby contains keys for storage cupboard. Puzzle on whiteboard for week's lock code
+- Puzzle on whiteboard uses 7-segment numbers, probably something with overlapping the numbers.
