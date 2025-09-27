@@ -1,5 +1,4 @@
 
-setwd("C:/Users/damie/OneDrive/Escape this Podcast/Spectral Labs")
 source("./common.R")
 
 # Entire plot area size (starts at 0).

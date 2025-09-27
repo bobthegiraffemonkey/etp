@@ -1,5 +1,4 @@
 
-setwd("C:/Users/damie/OneDrive/Escape this Podcast/Spectral Labs")
 source("./common.R")
 
 
@@ -101,7 +100,12 @@ draw_grid = function()
 {
   for (ii in 1:5){
     lines(c(ii, ii), c(1, 5), lwd=BLOCK_LINE_WIDTH)
-    lines(c(1, 5), c(ii, ii), lwd=BLOCK_LINE_WIDTH)
+    lines(c(1, 5), c(ii, ii))
+  }
+  
+  for (ii in 1:4)
+  {
+    lines(c(.1, .9) + ii, c(.9, .9), lwd=2)
   }
 }
 
@@ -168,6 +172,11 @@ draw_soln_line = function(x1, x2, y1, y2, col)
         lwd=10)
 }
 
+draw_answer = function(answer)
+{
+  text(1:4 + .5, rep(.5, 4), answer)
+}
+
 draw_soln_r = function(write_to_file)
 {
   setup_plot(6, 6, "block_soln_r.png", write_to_file)
@@ -186,6 +195,9 @@ draw_soln_r = function(write_to_file)
   
   draw_soln_line(1, 1, 2, 4, COL_B)
   draw_soln_line(1, 2, 3, 3, COL_B)
+  
+  answer = c(1, 3, 1, 1)
+  draw_answer(answer)
   
   if (write_to_file) {dev.off()}
 }
@@ -208,6 +220,24 @@ draw_soln_g = function(write_to_file)
   
   draw_soln_line(3, 4, 3, 3, COL_B)
   draw_soln_line(4, 4, 2, 4, COL_B)
+
+  answer = c(3, 1, 1, 1)
+  draw_answer(answer)
+  
+  if (write_to_file) {dev.off()}
+}
+
+draw_soln_b = function(write_to_file)
+{
+  setup_plot(6, 6, "block_soln_b.png", write_to_file)
+  draw_grid()
+  draw_block(2, 3, E_R)
+  draw_block(1, 2, E_G)
+  draw_block(3, 1, E_B)
+  draw_block(4, 1, E_RGB)
+  
+  answer = c(0, 0, 1, 1)
+  draw_answer(answer)
   
   if (write_to_file) {dev.off()}
 }
@@ -215,3 +245,4 @@ draw_soln_g = function(write_to_file)
 draw_base_puzzle(T)
 draw_soln_r(T)
 draw_soln_g(T)
+draw_soln_b(T)
