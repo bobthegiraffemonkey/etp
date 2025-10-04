@@ -9,18 +9,6 @@ You find yourself in a lobby.
   - On the East wall behind the desk is a large poster.
 - In the South-West corner is a coat rack.
 
-Items
-=====
-- [] Key - desk drawers
-- [] Key - keycard for lab
-- [] Key - for lab
-- [] Code - Biscuit tin
-- [] Code - Chemistry lab
-- [] Chemicals
-- [] Narrow torch
-- [] UV torch
-- [] Blue disc
-
 Desk
 There isn't much of interest on the desk - some standard office desk stuff, some personal decorations like a cactus, a coffee mag on a blue glass coaster. There's a set of drawers built into the desk.
 
@@ -77,7 +65,7 @@ Upstairs labs
 Note: None of these doors can be opened by the player, but you will access the contents of RGB1 and RGB 2 so they need to exist. The other two are flavour/realism.
 You see four rooms in the middle again, just like on the ground floor. One is labelled "RGB1", with a note stuck to the door saying "Favourite animals! (initial size)". Another is labelled "RGB2", and has a picture stuck to the door. The other two are "RGB3" and "RGB4" and have notes attached saying "Work in progress". All are locked and would need a key card and key.
 Try open: key and keycard from downstairs don't work at all here.
-[Image]
+[image: irons]
 
 Doormat
 Note: Inside front door - because that's obviously a very sneaky and secure variation of hiding a key under an outside door mat.

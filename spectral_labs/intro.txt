@@ -44,7 +44,7 @@ Introduction
 ============
 "Ring ring!" (Have a phone call, here's a rough idea how that might go).
 
-Hi, it's Tim. You know, from uni? We met a few times, you were friends with my sister, Kate, because you studied physics together. Actually, that's why I'm phoning.
+Hi, it's Tim. You know, from uni? We met a few times. You were friends with my sister, Kate, because you studied physics together? Actually, that's why I'm phoning.
 
 She was supposed to stop by last night, but I've not heard from her since yesterday morning. I know she can get a bit distracted by her work, but I'm getting a little worried. It's probably nothing, I know there was a problem with the electrical substation in the area yesterday afternoon, probably she lost some work and got distracted fixing it. Her phone seems to be off, but probably just out of battery or the charger got fried, or something.
 
@@ -59,17 +59,8 @@ Building entrance
 =================
 
 Door
-  You walk up to the door. It has glass panels so you can see some of the lobby inside, and the welcome mat just inside the door - the word "Welcome" with each letter a different colour of the rainbow. Next to the door is the keypad that Tim warned you about. His message said that Kate wasn't the best at security, so it would probably be a number she liked or something like that. He couldn't quite remember the code, but seemed to think it was 4 digits and definitely easy to remember.
-    Signpost: The rainbow, door mat, and talk of colours.
-    Hint: The number 7 key seems a little more worn than the rest.
-    Hint: Welcome mat inside the door has 7 colours of the rainbow (see lobby).
-    Answer: 7777
-
-
-Finale
-Once pink blob appears, need to drag person out. They're unconscious, need to switch to normal light to wake them up. Go get pizza!
-
-
-Ideas
-- Biscuit tin in lobby contains keys for storage cupboard. Puzzle on whiteboard for week's lock code
-- Puzzle on whiteboard uses 7-segment numbers, probably something with overlapping the numbers.
+You walk up to the door. It has glass panels so you can see some of the lobby inside, and the welcome mat just inside the door - the word "Welcome" with each letter a different colour of the rainbow. Next to the door is the keypad that Tim warned you about. His message said that Kate wasn't the best at security, so it would probably be a number she liked or something like that. He couldn't quite remember the code, but seemed to think it was 4 digits and definitely easy to remember.
+Signpost: The rainbow, door mat, and talk of colours.
+Hint: The number 7 key seems a little more worn than the rest.
+Hint: Welcome mat inside the door has 7 colours of the rainbow (see lobby).
+Answer: 7777

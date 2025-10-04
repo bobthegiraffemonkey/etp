@@ -1,0 +1,3 @@
+Ideas
+- Biscuit tin in lobby contains keys for storage cupboard. Puzzle on whiteboard for week's lock code
+- Puzzle on whiteboard uses 7-segment numbers, probably something with overlapping the numbers.
