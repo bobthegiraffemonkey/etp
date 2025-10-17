@@ -65,19 +65,19 @@ Upstairs labs
 Note: None of these doors can be opened by the player, but you will access the contents of RGB1 and RGB 2 so they need to exist. The other two are flavour/realism.
 You see four rooms in the middle again, just like on the ground floor. One is labelled "RGB1", with a note stuck to the door saying "Favourite animals! (initial size)". Another is labelled "RGB2", and has a picture stuck to the door. The other two are "RGB3" and "RGB4" and have notes attached saying "Work in progress". All are locked and would need a key card and key.
 Try open: key and keycard from downstairs don't work at all here.
-[image: irons]
+[image: animal hints, irons]
 
 Doormat
 Note: Inside front door - because that's obviously a very sneaky and secure variation of hiding a key under an outside door mat.
 It says "Welcome", and each letter is a different colour of the rainbow.
-Look under mat: You look under the mat and find a key card.
+Look under mat: You look under the mat, and find a key card.
 Find: Key - keycard for lab
 
 Chemistry lab door
 Note: Expected that players only try to open this when trying to fix the red disc
 It's locked with a numeric keypad. There's a post-it note below the keypad.
 [image - shows the word "hint" underlined, but actually just under the middle two letters]
-Hint: Look at the hint carefully.
+Hint: Look at the note carefully.
 Answer: 914 (I=9, N=14)
 
 Chemistry lab
