@@ -1,0 +1,5 @@
+puzzles
+almost-pangram, spell out nato alphabet words
+
+rooms
+child reaching biscuit tin in the kitchen
