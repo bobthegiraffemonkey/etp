@@ -6,8 +6,8 @@ echo
 foxtrot
 golf
 hotel
-indigo
-juliet
+india
+juliett
 kilo
 lima
 mike
@@ -19,8 +19,8 @@ romeo
 sierra
 tango
 uniform
-violin
-whisky
+victor
+whiskey
 xray
 yankee
 zulu
