@@ -1,12 +1,12 @@
 Hints
-1. poster
-2. post_it_note
-3. whiteboard
-4. panel
-5. always_check_the_door
-6. block_base
+1. [x] poster
+2. [ ] post_it_note
+3. [ ] whiteboard
+4. [ ] panel
+5. [ ] always_check_the_door
+6. [x] block_base
 
 Solutions
-1. block_soln_r
-2. block_soln_g
-3. block_soln_b
+1. [x] block_soln_r
+2. [x] block_soln_g
+3. [x] block_soln_b
