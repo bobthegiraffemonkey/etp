@@ -45,17 +45,31 @@ for (ii in 2:6)
 }
 rots = seq(-90, len=6, by=-60)
 
-word_cols = c(COL_G, COL_G, COL_B, COL_B, COL_R, COL_R)
-
 p_inner = matrix(0, 2, 3)
-p_inner[2,2] = 2.5
+p_inner[1,2] = 2.5 * sin(pi/64)
+p_inner[2,2] = 2.5 * cos(pi/64)
 p_inner[,3] = rot60 %*% p_inner[,2]
-polygon(p_inner[1,], p_inner[2,])
+p_inner_cols = c(COL_B, COL_B, COL_R, COL_R, COL_G, COL_G)
 
-setup_plot(xmax, ymax, "always_check_the_door.png", F)
+p_outer = matrix(0, 2, 4)
+p_outer[,1] = p_inner[,2]
+p_outer[,4] = p_inner[,3]
+p_outer[,2] = p_outer[,1] * 1.6
+p_outer[,3] = p_outer[,4] * 1.6
+
+COL_BRONZE = "#CD7F32"
+
+setup_plot(xmax, ymax, "always_check_the_door.png", T)
 text(0, 3, "=", cex=3)
 for (ii in 1:6)
 {
   text(text_xy[1,ii], text_xy[2,ii], words[ii], srt=rots[ii], cex=4)
+  
+  polygon(p_inner[1,], p_inner[2,], lwd=6, border = COL_BRONZE, col=p_inner_cols[ii])
+  polygon(p_outer[1,], p_outer[2,], lwd=6, border = COL_BRONZE)
+
+  p_inner = rot60 %*% p_inner
+  p_outer = rot60 %*% p_outer
 }
 
+dev.off()
