@@ -19,50 +19,6 @@ draw_square = function(x, y, col, lwd=1)
           lwd=lwd)
 }
 
-draw_block_symbol_r = function(x, y, lwd = 1)
-{
-  # Triangle.
-  v1 = c(x + .2, y + .1)
-  v2 = c(x + .8, y + .1)
-  v3 = c(x + .5, y + .1 + (.3 * sqrt(3)))
-  polygon(rbind(v1, v2, v3), lwd=lwd)
-}
-
-draw_block_symbol_g = function(x, y, lwd = 1)
-{
-  # 3 vertical lines.
-  lines(c(.4, .3) + x,
-        c(.1, .9) + y,
-        lwd=lwd)
-  lines(c(.5, .5) + x,
-        c(.1, .9) + y,
-        lwd=lwd)
-  lines(c(.6, .7) + x,
-        c(.1, .9) + y,
-        lwd=lwd)
-}
-
-draw_block_symbol_b = function(x, y, lwd = 1)
-{
-  # 2 wavy lines.
-  num_points = 27
-  t = seq(0, tau, length.out=num_points)
-  y1 = sin(t) / 10 + .4
-  y2 = y1 + .2
-  lines(seq(.2, .8, length.out=num_points) + x, y1 + y, lwd=lwd)
-  lines(seq(.2, .8, length.out=num_points) + x, y2 + y, lwd=lwd)
-}
-
-draw_block_symbol_rgb = function(x, y, lwd = 1)
-{
-  # 2 diag lines.
-  lines(c(.2, .6) + x,
-        c(.4, .8) + y,
-        lwd=lwd)
-  lines(c(.4, .8) + x,
-        c(.2, .6) + y,
-        lwd=lwd)
-}
 
 BLOCK_LINE_WIDTH = 4
 SYMBOL_LINE_WIDTH = 4
@@ -80,19 +36,19 @@ draw_block = function(x, y, rgb)
   
   if (rgb == E_R)
   {
-    draw_block_symbol_r(x, y, SYMBOL_LINE_WIDTH)
+    draw_col_symbol_r(x, y, SYMBOL_LINE_WIDTH)
   }
   else if (rgb == E_G)
   {
-    draw_block_symbol_g(x, y, SYMBOL_LINE_WIDTH)
+    draw_col_symbol_g(x, y, SYMBOL_LINE_WIDTH)
   }
   else if (rgb == E_B)
   {
-    draw_block_symbol_b(x, y, SYMBOL_LINE_WIDTH)
+    draw_col_symbol_b(x, y, SYMBOL_LINE_WIDTH)
   }
   else if (rgb == E_RGB)
   {
-    draw_block_symbol_rgb(x, y, SYMBOL_LINE_WIDTH)
+    draw_col_symbol_rgb(x, y, SYMBOL_LINE_WIDTH)
   }
 }
 

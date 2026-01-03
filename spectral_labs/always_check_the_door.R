@@ -29,7 +29,7 @@ setup_plot = function(x_max, y_max, filename, write_to_file)
        yaxs = "i")
 }
 
-setup_plot(xmax, ymax, "always_check_the_door.png", F)
+setup_plot(xmax, ymax, "always_check_the_door.png", T)
 
 text_xy = matrix(0, 2, 6)
 words = c("full", "grid", "leaf", "out", "fixed", "white")
@@ -57,9 +57,9 @@ p_outer[,4] = p_inner[,3]
 p_outer[,2] = p_outer[,1] * 1.6
 p_outer[,3] = p_outer[,4] * 1.6
 
-COL_BRONZE = "#CD7F32"
+p_sym = t((p_inner[,2] * .5) %*% get_rot_matrix(-pi/6))
+rot_sym = -pi/64 - pi/6
 
-setup_plot(xmax, ymax, "always_check_the_door.png", T)
 text(0, 3, "=", cex=3)
 for (ii in 1:6)
 {
@@ -67,9 +67,16 @@ for (ii in 1:6)
   
   polygon(p_inner[1,], p_inner[2,], lwd=6, border = COL_BRONZE, col=p_inner_cols[ii])
   polygon(p_outer[1,], p_outer[2,], lwd=6, border = COL_BRONZE)
+  draw_col_symbol(p_inner_cols[ii],
+                  p_sym[1], p_sym[2],
+                  4,
+                  F,
+                  rot_sym)
 
   p_inner = rot60 %*% p_inner
   p_outer = rot60 %*% p_outer
+  p_sym = rot60 %*% p_sym
+  rot_sym = rot_sym - pi/3
 }
 
 dev.off()
