@@ -27,11 +27,12 @@ Gimmick rules
 - If object A exists in a position that would overlap with object B, and object A is included but B is not, then turning on the appropriate light to make B appear will superimpose A and B into one solid object. The colour of the overlap is the result of adding the colours (like how RGB works on screens).
   - E.g. red light on, green object would overlap with a red object, then turning on the green light will merge those two objects. The overlap would be yellow.
 - Hex control will only load in other room if the colour is an exact match, so with the solution colour in place you only see the box and none of the other items.
+- Mixes of two colours would be possible, but maybe too tricky to make a good puzzle that's not too confusing?
 
 
 Characters
 ==========
-You (2 players, 1 or 2 characters at player discretion) - Did physics at uni, but now work in a bank. Mostly fine, but you do miss the subject sometimes.
+You (1 character) - Did physics at uni, but now work in a bank. Mostly fine, but you do miss the subject sometimes.
 
 Dr Kate White
 Scientist, loves colours, you need to help her out. You were friends at uni and shared physics classes. Known for wearing bright colours and generally loves colours, and incredibly smart. People used to joke she would end up inventing a new colour.
@@ -46,7 +47,7 @@ Introduction
 
 Hi, it's Tim. You know, from uni? We met a few times. You were friends with my sister, Kate, because you studied physics together? Actually, that's why I'm phoning.
 
-She was supposed to stop by last night, but I've not heard from her since yesterday morning. I know she can get a bit distracted by her work, but I'm getting a little worried. It's probably nothing, I know there was a problem with the electrical substation in the area yesterday afternoon, probably she lost some work and got distracted fixing it. Her phone seems to be off, but probably just out of battery or the charger got fried, or something.
+She was supposed to stop by last night, but I've not heard from her since yesterday morning. I know she can get a bit distracted by her work, but I'm getting a little worried. It's probably nothing, I know there was a problem with the electrical substation in the area yesterday afternoon, probably it just caused some problem and she got distracted fixing it. Her phone seems to be off, but probably just out of battery or something.
 
 Anyway, her lab isn't far from your house, if you're there now? I can send you the address, would really appreciate if you just dropped by to check she's ok. She's been doing some really cool stuff recently she said. I mean, I don't understand it, but you would probably enjoy hearing about it all. What do you say?"
 

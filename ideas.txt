@@ -1,5 +1,27 @@
 puzzles
 almost-pangram, spell out nato alphabet words
 
+bravo
+charlie
+delta
+echo
+golf
+hotel
+kilo
+lima
+mike
+oscar
+tango
+uniform
+victor
+whiskey
+xray
+
+
 rooms
 child reaching biscuit tin in the kitchen
+
+It's locked with a numeric keypad. There's a post-it note below the keypad.
+[image - shows the word "hint" underlined, but actually just under the middle two letters]
+Hint: Look at the note carefully.
+Answer: 914 (I=9, N=14)

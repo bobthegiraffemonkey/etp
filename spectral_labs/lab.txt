@@ -1,5 +1,23 @@
 Lab
 ---
+Wow. Ok, maybe magic is a fair choice of word, because your mind is blown by what just happened. Stuff ... appeared. Yeah, really, like, quite a few things that weren't there ... are suddenly in the room. You look around. Like the switches, things seem to be based on red, green, and blue. There's a red box, with various red shapes and stuff in, similarly for blue and green. There's what looks like a white safe on the back wall attached to the railing, with some streaks of other colours in places. There's some blocks in a 4x4 grid on the floor. There's some weird animal-looking things on the high shelf, all multi-coloured. They all look like they're made of a weird glass-like material, except glass doesn't normally appear from thin air like that.
+
+On the desk, you realise there's also a laptop that seems to be dead, with a cable the disappears into a hole in the top of the desk. There's also a keyring and keycard.
+
+Grid
+There's markings of a 4x4 grid on the floor, with some spaces filled with blocks already.
+Image: block_base
+
+Safe
+The safe doesn't open, nor does it slide along the railing. There's a 4 digit combination lock holding the door shut. There's also a bit at the top that locks into a panel on the wall, with a recessed shape on top that looks like 3 overlapping circles, and a small circular hole on the side of it at the top.
+
+Boxes
+You find an odd assortment of shapes and things that might be parts of contraptions. There's a red box containing only red things, and same for green and blue.
+
+Shelf
+You can't reach this.
+
+
 
 
 disk puzzle
@@ -54,7 +72,7 @@ pedestal has
 OR
 - 3 disks that arrange into the diagram on the poster
 - still one broken, but it's a fixed colour. No separate mould required, but do still need special light.
-- one in the box, one in the railing, one in a box with a jumble of shapes (need to specify what you're looking for).
+- one as a coaster on the desk, one in the railing, one in a box with a jumble of shapes (need to specify what you're looking for).
 - safes are attached to the wall by a railing, and the disks + light allow them to slide so you can open the combo locks
 
 

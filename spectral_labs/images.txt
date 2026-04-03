@@ -1,10 +1,12 @@
 Hints
 1. [x] poster
-2. [ ] post_it_note
-3. [ ] whiteboard
-4. [ ] panel
-5. [ ] always_check_the_door
-6. [x] block_base
+2. [ ] animals_post_it_note
+3. [ ] irons_post_it_note
+4. [ ] whiteboard
+5. [ ] panel
+6. [x] always_check_the_door
+7. [x] block_base
+8. [ ] chemical
 
 Solutions
 1. [x] block_soln_r
